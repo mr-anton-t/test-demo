@@ -1,0 +1,38 @@
+{
+  "name": "test-demo",
+  "version": "1.0.0",
+  "description": "dummy project",
+  "scripts": {
+    "test": "wdio run config/chrome.conf.ts",
+    "test-headless": "wdio run config/chrome.headless.conf.ts",
+    "eslint:local": "eslint . --ext .ts --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-anton-t/test-demo.git"
+  },
+  "author": "Anton Trifonov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mr-anton-t/test-demo/issues"
+  },
+  "homepage": "https://github.com/mr-anton-t/test-demo#readme",
+  "devDependencies": {
+    "@wdio/cli": "8.0.12",
+    "@wdio/jasmine-framework": "8.0.11",
+    "@wdio/local-runner": "8.0.12",
+    "@wdio/spec-reporter": "8.0.11",
+    "chromedriver": "108.0.0",
+    "deepmerge": "4.2.2",
+    "eslint": "8.29.0",
+    "eslint-plugin-unused-imports": "2.0.0",
+    "@typescript-eslint/eslint-plugin": "5.46.1",
+    "eslint-plugin-ui-testing": "2.0.1",
+    "ts-node": "10.9.1",
+    "typescript": "4.9.4",
+    "wdio-chromedriver-service": "8.0.1",
+    "wdio-wait-for": "3.0.1"
+  },
+  "dependencies": {
+  }
+}

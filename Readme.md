@@ -1,6 +1,6 @@
 ## Example  for test site via WDIO
 
-This directory demonstrates a simple setup for a wdio test suite with page objects.
+This project demonstrates a simple setup for a wdio test suite with page objects.
 
 # To run test
 

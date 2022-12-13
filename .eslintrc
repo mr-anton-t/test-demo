@@ -4,13 +4,15 @@
   "plugins": [
     "@typescript-eslint",
     "ui-testing",
+    "jasmine",
     "unused-imports"
   ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:ui-testing/webdriverio"
+    "plugin:ui-testing/webdriverio",
+    "plugin:jasmine/recommended"
   ],
   "rules": {
     "no-console": 2,
@@ -39,6 +41,7 @@
         "after": true
       }
     ],
+    "jasmine/new-line-before-expect": 0,
     "no-multiple-empty-lines": [
       "error",
       {

@@ -21,8 +21,9 @@ describe('Check Login application', () => {
 
         await LoginPage.login('locked_out_user', 'secret_sauce');
 
+        //console.log(await LoginPage.errorMessage.getText());
         await expect(LoginPage.errorMessage).toBeExisting();
-        expect((await (LoginPage.errorMessage)).getText()).toEqual('Epic sadface: Sorry, this user has been locked out.');
+        expect(await LoginPage.errorMessage.getText()).toEqual('Epic sadface: Sorry, this user has been locked out.');
 
     });
 });

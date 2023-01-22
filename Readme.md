@@ -9,26 +9,26 @@ This project demonstrates a simple setup for a wdio test suite with page objects
 # To run test
 
 1. Clone project
-2. Install dependeces
+2. Install dependeces:
 
 ```sh
    npm install
 ```
 
 3. Install Chrome
-4. Run test
+4. Run test:
 
 ```sh
    npm run test
 ```
 
-To run in headless mode, use command
+To run in headless mode, use command:
 
 ```sh
    npm run test-headless
 ```
 
-Additional config to start
+Additional config for start:
 
 ```sh 
 export PATH=./node_modules/.bin:$PATH
@@ -37,7 +37,6 @@ source $(brew --prefix nvm)/nvm.sh
 ```
 
 # To Do
-
 1. Add config for run in cloud/docker
 2. Add screenshot tool for failed tests
 3. Add config for Gitlab CI and for Jenkins CI

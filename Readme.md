@@ -1,6 +1,6 @@
 ## Example  for test site via WDIO
 
-![GitHub](bit.ly/3wGsoNy)
+![GitHub](https://bit.ly/3wGsoNy)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mr-anton-t/test-demo)
 
 

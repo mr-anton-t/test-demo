@@ -3,6 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/mr-anton-t/test-demo)
 ![GitHub License](https://img.shields.io/github/license/mr-anton-t/test-demo)
 ![Visits Badge](https://badges.pufler.dev/visits/mr-anton-t/test-demo)
+![Visits Badg](https://komarev.com/ghpvc/?username=mr-anton-t-test-demo&style=flat-square&color=lightgrey)
 
 
 

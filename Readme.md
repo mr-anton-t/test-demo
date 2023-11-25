@@ -1,7 +1,10 @@
 ## Example  for test site via WDIO
 
-![GitHub](https://bit.ly/3wGsoNy)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mr-anton-t/test-demo)
+![GitHub License](https://img.shields.io/github/license/mr-anton-t/test-demo)
+![Visits Badge](https://badges.pufler.dev/visits/mr-anton-t/test-demo)
+
+
 
 
 This project demonstrates a simple setup for a wdio test suite with page objects.
